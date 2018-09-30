@@ -1,0 +1,97 @@
+div.left,div.right,div.right ul,div.right ul li  {
+	display: inline-block;
+	box-sizing: border-box;
+}
+div.left{
+	padding-left: 50px;
+	width: 35%;
+}
+div.left a{
+	color: #444;
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+div.right{
+	padding-right: 50px;
+	width: 65%;
+}
+div.right ul li {
+	margin: 0 10px;
+}
+body {
+  background: radial-gradient(circle, black, white);
+}
+section.intro{
+	text-align: center;
+	padding: 100px 300px;
+	color: white;
+	background-image: url("../img/stars.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+section{
+	padding-top: 80px;
+	text-align: center;
+}
+section > div {
+	display: inline-block;
+	width: 20%;
+	text-align: left;
+}
+div.icon{
+	background-color: #3696d8;
+	width: 180px;
+	height: 100px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 30px;
+	color: white;
+	border-radius: 50%; 
+}
+div.icon i {
+	font-size: 2.5rem;
+}
+/*usually indicate a site that has been devoloped on a desktop*/
+
+
+@media(min-width: 1000px) {
+	div {
+		padding: 25px;
+		padding-left: 25px;
+	}
+	h4 {
+	font-size: 3.5rem;
+    }
+    p{
+    	font-size: 1.75rem;
+    	display: inline-block;
+
+    }
+}
+@media(max-width: 550px) {
+	.consulting{
+		width: 100%;
+	
+
+	}
+	section.intro {
+		width: 100%
+
+	}
+	div{
+		text-align: center;
+		padding-top: 100px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	h1{
+		font-size: 1.5rem 
+	}
+}
+
+
+
+
+
+
+
